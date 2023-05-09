@@ -1,0 +1,824 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 12px;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.wag {
+    color: green;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 30px;
+    display: inline;
+    font-weight: 700;
+}
+li {
+    list-style: none;
+}
+.f-ul {
+    display: inline;
+    margin-right: 280px;
+}
+.s-ul {
+    margin-right: auto;
+}
+.f-ul>li,
+.s-ul>li {
+    display: inline;
+    font-size: 18px;
+    padding: 12px;
+    color: gray;
+}
+.s-ul > .become {
+    color: green;
+}
+#dropbtnm {
+    display: none;
+}
+#dropbtnu {
+    display: none;
+}
+
+.become {
+    margin-left: auto;
+}
+#banner img {
+    max-width: 38.5vw;
+}
+#banner h2 {
+    font-size: 4em;
+    padding-top: 10px;
+}
+#banner p {
+    font-size: 2em;
+    padding-top: 10px;
+}
+#banner {
+    background-image: url("./Images/become-a-walker-background-desktop-c1a61bd5fdee1b976efaeb24e1a35bed.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 620px;
+    padding: 150px 120px 50px;
+    color: antiquewhite;
+}
+
+form {
+    background-color: whitesmoke;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 25px 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    height: 600px;
+    color: grey;
+}
+.in-image {
+    display: flex;
+    justify-content: space-between;
+}
+.input-div {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-right: 2%;
+}
+input {
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.qrcode {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 4px;
+    align-items: center;
+    height: 130px;
+    width: 100px;
+    top: 0;
+}
+form a {
+    color: green;
+}
+.get {
+    padding: 7px 14px;
+    font-size: 15px;
+    margin: 15px auto 0px 0px;
+    border-radius: 7px;
+    background-color: lightgray;
+    opacity: 0.4;
+}
+form h2 {
+    font-size: 20px;
+    padding: 25px 2px 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.header {
+    padding: 200px 100px 35px;
+    margin-top: 20px;
+}
+.img {
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    margin: 0px auto;
+}
+.pad a {
+    color: green;
+    font-weight: bolder;
+}
+.pad p {
+    font-size: 16.5px;
+    padding: 5px;
+}
+.header h2 {
+    text-align: center;
+    font-size: 3em;
+    color: gray;
+}
+.pad {
+    color: gray;
+    width: 33%;
+    text-align: center;
+    padding: 20px;
+}
+.pad h3 {
+    padding: 10px;
+}
+
+.girl {
+    width: 45%;
+    height: 400px;
+    margin-left: 50px;
+}
+.love a {
+    color: green;
+    font-weight: bolder;
+}
+.love p {
+    font-size: 17.5px;
+    padding: 10px;
+}
+.love {
+    color: gray;
+    width: 50%;
+    padding: 0px 30px 0px 0px;
+}
+.love h2 {
+    font-size: 3em;
+    padding: 10px 10px 20px;
+}
+.third {
+    display: flex;
+    padding: 70px 100px 100px;
+    background-color: whitesmoke;
+}
+
+.fourth h2 {
+    text-align: center;
+    font-size: 3em;
+    color: gray;
+}
+.givers img{
+    width: 160px;
+    height: 160px;
+}
+.play img {
+    width: 50px;
+    height: 50px;
+    box-sizing: 50px solid white;
+    border-radius: 50%;
+    background-color: green;
+    padding: 10px;
+    /* overflow: auto; */
+}
+.givers p {
+    padding: 20px auto;
+    line-height: 1.5;
+}
+.care p {
+    color: gray;
+    word-spacing: 3px;
+}
+.givers {
+    display: flex;
+    padding-bottom: 13px;
+}
+.play {
+    display: flex;
+    position: absolute;
+    top: 157px;
+    /* width: 33vw; */
+}
+.play p {
+    padding-top: 30px;
+}
+.care {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    margin: 10px;
+    padding: 10px 10px 0px;
+    position: relative;
+    width: 33%;
+}
+.caregive {
+    display: flex;
+    margin: 50px auto;
+}
+.fourth {
+    padding: 70px 0px;
+    max-width: 100%;
+}
+
+.fifth h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    /* color: white; */
+}    
+.num {
+    font-size: 50px;
+}
+.num-work {
+    font-style: italic;
+    padding: 0px 18px 10px 0px;
+    /* width: 200px; */
+    direction: rtl;
+    color: peachpuff;
+}
+.progress {
+    display: flex;
+    padding: 50px 50px 25px;
+    width: 50%;
+}
+.details {
+    padding-top: 12px;
+    /* width: 300px; */
+}
+.fdiv {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.fifth {
+    background-color: rgb(60, 60, 108);
+    padding: 40px 60px 50px;
+    color: white;
+}
+.fifth a {
+    color: antiquewhite;
+    font-weight: bold;
+}
+.sign-up {
+    background-color: navajowhite;
+    color: brown;
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 15px auto;
+}
+.faq {
+    text-align: center;
+}
+.faq p{
+    margin: 0 auto;
+}
+
+.app {
+    width: 160px;
+    height: 160px;
+    margin: 22px 0px 27px;
+}
+#swag {
+    font-size: 3.2em;
+    font-weight: bolder;
+    color: green;
+    margin: 30px auto;
+}
+#help {
+    color: green;
+    font-size: 1.2em;
+}
+.sixth {
+    display: flex;
+    background-color: whitesmoke;
+}
+.store {
+    margin: 50px 100px;
+}
+.clink a {
+    display: block;
+    color: gray;
+    padding: 3.5px 0px;
+}
+.clink {
+    display: flex;
+    margin: 100px;
+    font-size: 0.95em;
+} 
+.link {
+    margin-right: 60px;
+}
+.app img {
+    margin: 10px auto 10px;
+}
+#sec {
+    margin-top: 55px;
+}
+.link {
+    color: green;
+}
+.dload {
+    color: gray;
+}
+
+hr {
+    margin: 0px 100px 0px 100px;
+    color: gray;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+
+.social img{
+    width: 45px;
+    padding: 0px 7px;
+}
+footer {
+    display: flex;
+    padding: 20px 0px 30px 0px;
+    background-color: whitesmoke;
+}
+.policy {
+    padding: 0px 100px 0px 100px;
+    font-size: 0.95em;
+    display: flex;
+}
+.policy a {
+    padding-right: 40px;
+    color: gray;
+}
+.social {
+    opacity: 0.5;
+    margin-left: 26px;
+}
+
+/* media queries */
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+    .f-ul>li, .s-ul>li {
+        font-size: 13px;
+        padding: 8px;
+    }
+    #dropbtnm {
+        width: 10vw;
+        height: 5px;
+        border: none;
+        padding: 2px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .f-ul {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 75vw;
+    }
+    .f-ul li {
+        color: black;
+        padding: 12px 16px;
+        display: block;
+    }
+    .fnav {
+        position: relative;
+        display: inline-block;
+    }
+    .f-ul li:hover {
+        background-color: lightskyblue;
+    }
+    .fnav:hover .f-ul {
+        display: block;
+    }
+    .fnav:hover #dropbtnm {
+        background-color: green;
+    }
+    #dropbtnu {
+        width: 10vw;
+        height: 5px;
+        border: none;
+        padding: 2px;
+        cursor: pointer;
+        display: inline-block;
+        margin-left: 20vw;
+    }
+    .s-ul {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 50vw;
+        right: 0;
+    }
+    .s-ul li {
+        color: black;
+        padding: 12px 16px;
+        display: block;
+    }
+    .snav {
+        position: relative;
+        display: inline-block;
+    }
+    .s-ul li:hover {
+        background-color: lightskyblue;
+    }
+    .snav:hover .s-ul {
+        display: block;
+    }
+    .snav:hover #dropbtnu {
+        background-color: green;
+    }
+    #banner img {
+        max-width: 90vw;
+    }
+    #banner h2 {
+        font-size: 2em;
+        padding-top: 3px;
+    }
+    #banner p {
+        font-size: 1.2em;
+        padding-top: 3px;
+    }
+    #banner {
+        height: 350px;
+        padding: 100px 12px 10px;
+    }
+    form {
+        width: 96vw;
+        margin: 5px auto;
+        padding: 5px 4px;
+        border-radius: 3px;
+        height: 460px;
+        position: initial;
+    }
+    form > aside, p {
+        font-size: 12px;
+    }
+    .input-div {
+        width: 98%;
+    }
+    input {
+        padding: 5px;
+        font-size: 20px;
+        margin-bottom: 4px;
+        border-radius: 6px;
+    }
+    .qrcode {
+        display: none;
+    }
+    .get {
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 5px auto;
+        border-radius: 6px;
+    }
+    form h2 {
+        font-size: 15px;
+        padding: 8px 2px 3px;
+    }
+    .container {
+        flex-wrap: wrap;
+    }
+    .header {
+        padding: 20px 10px 5px;
+    }
+    .header h2 {
+        font-size: 2em;
+    }
+    .pad {
+        width: 100%;
+        padding: 20px;
+    }
+    .girl {
+        width: 100vw;
+        margin: 5px;
+    }
+    .love p {
+        padding: 5px;
+    }
+    .love {
+        width: 100vw;
+        padding: 5px;
+    }
+    .love h2 {
+        font-size: 2em;
+    }
+    .third {
+        flex-wrap: wrap;
+        padding: 20px 10px 55px;
+    }
+    .fourth h2 {
+        font-size: 2em;
+    }
+    .givers p {
+        line-height: 1.1;
+    }
+    .care {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .caregive {
+        flex-wrap: wrap;
+    }
+    .fifth h2 {
+        font-size: 2em;
+    }
+    .progress {
+        width: 100%;
+    }
+    .fifth {
+        padding: 50px 12px 20px;
+    }    
+        .sixth {
+            flex-wrap: wrap;
+        }
+        .store {
+            margin: 30px 50px;
+            width: 100%;
+        }
+        .clink {
+            margin: 50px;
+            flex-wrap: wrap;
+        }
+        .link {
+            padding-top: 20px;
+            margin: 15px;
+        }    
+        hr {
+            margin: 0px 20px 0px;
+        }
+        .social img {
+            padding: 10px;
+        }
+        footer {
+            flex-direction: column;
+            padding: 20px 0px;
+        }
+        .policy {
+            padding: 0px 50px 0px 50px;
+            flex-wrap: wrap;
+        }
+        .policy a {
+            padding: 10px;
+        }
+        .social {
+            margin: 20px 50px;
+        }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    nav {
+       padding-right: 5px;
+    }
+    .f-ul {
+        margin-right: 0px;
+    }
+    .f-ul>li,
+    .s-ul>li {
+        font-size: 13px;
+        padding: 8px;
+    }
+    .wag {
+        font-size: 22.6px;
+        margin-left: 10.4px;
+        margin-right: 22.6px;
+    }
+    #dropbtnm {
+        display: none;
+    }
+    #dropbtnu {
+        display: none;
+    }
+    #banner {
+        padding: 100px 60px 30px;
+        height: 500px;
+    }
+    #banner h2 {
+        font-size: 2.7em;
+    }
+    #banner p {
+        font-size: 1.3em;
+    }   
+    input {
+        padding: 7px;
+        font-size: 14px;
+        margin-bottom: 7px;
+        border-radius: 3.5px;
+    }
+    .qrcode {
+        padding: 2px 2px;
+        align-items: center;
+        height: 100px;
+        width: 70px;
+        top: 0;
+    }
+    .get {
+        padding: 7px 14px;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+    form h2 {
+        font-size: 14px;
+        padding: 18px 1.7px 7px;
+    }
+    form {
+        right: 50px;
+        top: 100px;
+        height: 520px;
+    }
+    form, p {
+        font-size: 0.9em;
+    }
+    aside {
+        font-size: 0.9em;
+    }
+    .third {
+        padding: 50px 80px 0px;
+    }
+    .girl {
+        margin-top: 50px;
+    }
+    .love h2 {
+        font-size: 0.95em;
+    }
+    .love p {
+        font-size: 0.95em;
+    }
+    .fourth h2 {
+        font-size: 2em;
+    }
+    .givers img {
+        width: 125px;
+        height: 125px;
+    }
+    .givers p {
+        padding: 5px auto;
+        line-height: 1;
+    }
+    .care p {
+        word-spacing: 2px;
+    }
+    .givers {
+        padding-bottom: 13px;
+    }
+    .play {
+        top: 135px;
+    }
+    .play p {
+        padding-top: 25px;
+    }
+    .care {
+        margin: 3px;
+        padding: 7px 3px 10px;
+    }
+    .caregive {
+        margin: 30px auto;
+    }
+    .progress {
+        padding-inline-start: 0%;
+    }
+    .sixth {
+        flex-wrap: wrap;
+    }    
+    .store {
+        display: flex;
+        flex-direction: row;
+        margin: 30px auto 0px;
+    }   
+    .store p {
+        padding-right: 20px;
+    }
+    #help {
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .dload {
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    .app {
+        margin: 0px;
+        padding-right: 20px;
+    }
+    #swag {
+        margin: 0px;
+    }
+    .social img {
+        width: 45px;
+        padding: 0px 7px;
+    }
+    footer {
+        padding: 10px 0px 15px 0px;
+        flex-wrap: wrap;
+    }
+    .policy {
+        padding: 0px 50px 0px 50px;
+    }
+    .policy a {
+        padding-right: 20px;
+    }
+    .social {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1320px) {
+    nav {
+        padding: 9px;
+    }
+    .f-ul {
+        margin-right: 150px;
+    }
+    .f-ul>li,
+    .s-ul>li {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .wag {
+        font-size: 25px;
+        margin-left: 12px;
+        margin-right: 25px;
+    }
+    #dropbtnm {
+        display: none;
+    }
+    #dropbtnu {
+        display: none;
+    }
+    #banner h2 {
+        font-size: 3.3em;
+    }
+    #banner p {
+        font-size: 1.7em;
+    }
+    #banner {
+        height: 600px;
+        padding: 140px 90px 50px;
+    }
+    .girl {
+        width: 45%;
+        margin-top: 70px;
+    }
+    .third {
+        padding: 70px 100px 50px;
+    }
+    .care p {
+        color: gray;
+        word-spacing: 2px;
+    }
+    .givers p {
+        padding: 15px auto;
+        line-height: 1.15;
+    }
+    .get {
+        margin-top: auto;
+    }
+    form {
+        padding-top: 15px;
+    }
+    .policy a {
+        padding-right: 25px;
+    }
+}
+
+/* @media only screen and (min-width: 1321px) and (max-width: 1650px) {} */
+
+@media only screen and (min-width: 1650px) {}
+
+/* "Finally!. My brain, God!!!!" */
+
+
+
